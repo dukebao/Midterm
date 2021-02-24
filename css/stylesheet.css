@@ -1,37 +1,56 @@
 body
 {
-   
-}
-
-.mainh2spam
-{
-  
-}
-
-p{
-  
+   background-color: #F2E9E4;
+   color:#22223B;
+   font-family: 'Montserrat', sans-serif;
 }
 
 h1{
-   
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
 }
 
-.mainh1spam{
-  
-
-}
-
+h2{text-align: center;}
 nav{
-  
+    text-align: center;
 }
 
-.question57{
-
-   
-
-}
-
-.box{
+#Restaruant_Nav
+{
+    background-color:#9A8C98 ;
 
 }
 
+div p {
+    font-weight: bold;
+}
+
+#Menu,#Story{
+    background-color: #C9ADA7;
+
+}
+
+ul img{
+    float:right;
+}
+
+ul li {
+    color:teal
+}
+
+h3+img 
+{float:left;}
+
+a:link{
+
+    color: rgb(53, 8, 80)
+}
+a:visited{
+    color:silver
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
