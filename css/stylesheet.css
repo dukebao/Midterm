@@ -11,6 +11,7 @@ h1{
 }
 
 h2{text-align: center;}
+
 nav{
     text-align: center;
 }
@@ -21,17 +22,19 @@ nav{
 
 }
 
-div p {
+p {
     font-weight: bold;
+    
 }
 
-#Menu,#Story{
+#Menu,#Story,#About{
     background-color: #C9ADA7;
-
+    margin: 0;
 }
 
-ul img{
+ul+img{
     float:right;
+    display:block;
 }
 
 ul li {
@@ -39,7 +42,10 @@ ul li {
 }
 
 h3+img 
-{float:left;}
+{
+    display:block;
+    float:left;
+    padding-bottom: 5em;}
 
 a:link{
 
@@ -54,3 +60,9 @@ a:visited{
     top: 0;
     width: 100%
   }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
